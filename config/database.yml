@@ -8,6 +8,7 @@ default: &default
   adapter: mysql2
   username: root
   host: localhost
+  password: P@ssw0rd6126
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
   socket: /Applications/XAMPP/xamppfiles/var/mysql/mysql.sock
